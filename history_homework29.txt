@@ -1,0 +1,99 @@
+   0 cd /home
+   1 mkdir animals
+   2 ls
+   3 cd animals/
+   4 mkdir dogs
+   5 ls
+   6 mkdir cats
+   7 ls
+   8 mkdir fish
+   9 ls
+  10 cd dogs/
+  11 touch pluto.txt
+  12 ls
+  13 cd /animals
+  14 cd /home
+  15 cd animals/
+  16 cd cats/
+  17 touch garfield.txt
+  18 ls
+  19 cd /home
+  20 cd animals/
+  21 cd fish/
+  22 touch nemo.txt
+  23 ls
+  24 cd /home
+  25 mkdir planets
+  26 ls
+  27 cd opt/
+  28 mkdir opt
+  29 ls
+  30 cd opt/
+  31 toch Mercury.txt
+  32 cd /home
+  33 rmdir opt
+  34 ls
+  35 touch /opt/Mercury
+  36 ls
+  37 touch /opt/Veus
+  38 rm -f Veus
+  39 touch /opt/Venus
+  40 touch /opt/Mars
+  41 touch /opt/Jupiter
+  42 mv/opt/Mercury/home/planets
+  43 cd planets/
+  44 mv/opt/Mercury
+  45 pwd
+  46 cd /home
+  47 tree
+  48 pwd
+  49 cd/opt
+  50 tree
+  51 cd ..
+  52 cd/opt
+  53 ls -a
+  54 /opt
+  55 cd ../opt
+  56 touch Mercury.txt
+  57 ls
+  58 rm -f Jupiter
+  59 rm -f Mercury
+  60 rm -f Venus
+  61 rm -f Mars
+  62 ls
+  63 rm -f Veus
+  64 ls
+  65 touch Venus.txt
+  66 touch Mars.txt
+  67 touch Jupiter.txt
+  68 ls
+  69 cd
+  70 mv /opt/Mercury.txt/home/planets
+  71 mv --help
+  72 mv -f /opt/Mercury.txt/home/planets
+  73 mv /opt/Mercury.txt /home/planets
+  74 mv /opt/Venus.txt /home/planets
+  75 mv opt/Mars.txt /home/planets
+  76 mv /opt/Mars.txt home/planets
+  77 mv /opt/Jupiter.txt /home/planets
+  78 cd ../opt
+  79 ls
+  80 cd
+  81 mv /opt/Mars.txt /home/planets
+  82 cd ../tmp
+  83 touch adam.txt
+  84 ls
+  85 cd
+  86 mkdir -p /home/humans
+  87 cp /tmp/adam.txt /home/humans
+  88 cd ../tmp
+  89 touch evA.txt
+  90 ls
+  91 cd
+  92 mv /tmp/evA /opt/eve
+  93 mv /tmp/evA.txt /opt/eve
+  94 mv /opt/eve /home/humans
+  95 ls /home/humans
+  96 tree /home
+  97 history
+  98 history > history_homework29.txt
