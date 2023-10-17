@@ -1,0 +1,6 @@
+  #!/bin/bash
+
+echo "your name is: ec2-user"
+echo "your working directory is: palii"
+echo "Number of users: $(ps aux | grep ssh | wc -l)"
+echo "done"
